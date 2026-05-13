@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: '2010-09-09'
+
+Description: Simple Student Management Infrastructure
+
+Resources:
+
+  StudentEC2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      InstanceType: t2.micro
+      ImageId: ami-0df4b2961410d4cff
+
+      Tags:
+        - Key: Name
+          Value: StudentManagementServer
+          
