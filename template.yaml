@@ -8,7 +8,7 @@ Resources:
     Type: AWS::EC2::Instance
     Properties:
       InstanceType: t2.micro
-      ImageId: ami-0c02fb55956c7d316
+      ImageId: ami-0bf1982bfc7bbc490
       Tags:
         - Key: Name
           Value: StudentManagementServer
