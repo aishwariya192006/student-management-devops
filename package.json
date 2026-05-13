@@ -1,0 +1,21 @@
+{
+  "name": "student-management-system",
+  "version": "1.0.0",
+  "description": "Simple Student Management System for AWS DevOps Lab",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "node app/index.js",
+    "dev": "nodemon app/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "mysql2": "^3.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "author": "AWS DevOps Lab",
+  "license": "MIT"
+}
